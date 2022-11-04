@@ -8,6 +8,14 @@ fun contaX(str: String): Int {
 }
 
 fun bmi(m: Float, h: Float): Float {
+    print("aaa")
     if (h <= 0) throw ArithmeticException()
     return (m/h*h)
 }
+
+fun main() {
+
+    val x = bmi(100f, 1.92f)
+    println(x)
+}
+
