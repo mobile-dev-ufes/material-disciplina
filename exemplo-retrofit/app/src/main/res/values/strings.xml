@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exemplo Retrofit</string>
+    <string name="post_content">Conteúdo do Post</string>
+    <string name="get_post">Obter post</string>
+    <string name="post_id_hint">Digite o ID do post</string>
+    <string name="edit_empty">Digite o ID do post</string>
+</resources>
