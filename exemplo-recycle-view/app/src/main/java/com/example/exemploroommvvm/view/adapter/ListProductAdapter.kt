@@ -5,16 +5,18 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.exemploroommvvm.data.model.ProductModel
 import com.example.exemploroommvvm.databinding.ProductLineBinding
+import com.example.exemploroommvvm.view.listener.OnProductListener
 import com.example.exemploroommvvm.view.viewHolder.ListProductViewHolder
 
 class ListProductAdapter : RecyclerView.Adapter<ListProductViewHolder>() {
 
     private var prodList: List<ProductModel> = listOf()
+    private lateinit var listener: OnProductListener
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListProductViewHolder {
         val item = ProductLineBinding.inflate(LayoutInflater.from(parent.context),
                                               parent,false)
-        return ListProductViewHolder(item)
+        return ListProductViewHolder(item, listener)
     }
 
     override fun onBindViewHolder(holder: ListProductViewHolder, position: Int) {
@@ -28,6 +30,10 @@ class ListProductAdapter : RecyclerView.Adapter<ListProductViewHolder>() {
     fun updateProdList(list: List<ProductModel>) {
         prodList = list
         notifyDataSetChanged()
+    }
+
+    fun setListener(productListener: OnProductListener) {
+        listener = productListener
     }
 
 }

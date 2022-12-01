@@ -8,9 +8,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.exemploroommvvm.R
+import com.example.exemploroommvvm.data.model.ProductModel
 import com.example.exemploroommvvm.databinding.ActivityListProductBinding
 import com.example.exemploroommvvm.utils.Constants
 import com.example.exemploroommvvm.view.adapter.ListProductAdapter
+import com.example.exemploroommvvm.view.listener.OnProductListener
 import com.example.exemploroommvvm.viewModel.ListProductViewModel
 
 class ListProductActivity : AppCompatActivity(), View.OnClickListener {
@@ -34,6 +36,14 @@ class ListProductActivity : AppCompatActivity(), View.OnClickListener {
         binding.recyclerListProducts.adapter = adapter
 
         listVM = ViewModelProvider(this).get(ListProductViewModel::class.java)
+
+        // Listener do produto
+        val listener = object : OnProductListener {
+            override fun onClick(p: ProductModel) {
+                Toast.makeText(applicationContext, p.name, Toast.LENGTH_SHORT).show()
+            }
+        }
+        adapter.setListener(listener)
 
         listVM.getAllProducts()
 
