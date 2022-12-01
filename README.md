@@ -11,3 +11,5 @@ Esse repositório possui alguns recursos disponíveis para o aprendizado ao long
 - [Exemplo de uso do ROOM](exemplo-room): nesta pasta existe um exemplo de suporte para compreensão do uso do [ROOM](https://developer.android.com/training/data-storage/room)
 
 - [Exemplo de uso do ROOM com MVVM](exemplo-room-mvvm): nesta pasta existe um exemplo de suporte para compreensão do uso do [ROOM](https://developer.android.com/training/data-storage/room) utilizando o MVVM
+
+- [Exemplo de uso de uma RecyclerView](exemplo-recycle-view): nesta pasta existe um exemplo de suporte para compreensão do uso de uma [Recycler View](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=pt-br) utilizando o MVVM e o ROOM

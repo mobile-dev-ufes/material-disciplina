@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Exemplo Recycle View</string>
+    <string name="init_option">Escolha uma opção</string>
+    <string name="add_product">Adicionar produto</string>
+    <string name="search_product">Procurar produto</string>
+    <string name="add_product_title">Adicionar Produto</string>
+    <string name="hint_product_name">Nome do produto</string>
+    <string name="hint_product_code">Matrícula do produto</string>
+    <string name="hint_product_price">Preço (R$)</string>
+    <string name="hint_product_amount">Quantidade</string>
+    <string name="button_register">Cadastrar</string>
+    <string name="top_title_search">Buscar Produto</string>
+    <string name="search_prod_name">Nome:</string>
+    <string name="search_amount">Quantidade:</string>
+    <string name="search_price">Preço:</string>
+    <string name="search_button">Buscar</string>
+    <string name="empty_number_msg">Preencha todos os dados</string>
+    <string name="empty_name_msg">O nome não pode ser vazio</string>
+    <string name="empty_prod_code_msg">O código do produto não pode ser vazio</string>
+    <string name="success_add">Produto adicionado com sucesso</string>
+    <string name="success_search">Produto(s) encontrado(s) com sucesso</string>
+    <string name="fail_add">Houve um problema ao adicionar o produto</string>
+    <string name="fail_search">Houve um problema ao pesquisar o produto</string>
+    <string name="not_found_search">Produto(s) não encontrado(s) no banco</string>
+    <string name="constraint_add">O código deste produto já existe</string>
+    <string name="text_list_products">Listar produtos</string>
+    <string name="list_product_title">Listar Produtos</string>
+</resources>
