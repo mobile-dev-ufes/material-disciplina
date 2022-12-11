@@ -14,4 +14,8 @@ Esse repositório possui alguns recursos disponíveis para o aprendizado ao long
 
 - [Exemplo de uso de uma RecyclerView](exemplo-recycle-view): nesta pasta existe um exemplo de suporte para compreensão do uso de uma [Recycler View](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=pt-br) utilizando o MVVM e o ROOM
 
-- [Exemplo de uso de Fragments](exemplo-fragments): nesta pasta existe um exemplo de suporte para compreensão do uso de [Fragments](https://developer.android.com/guide/fragments#:~:text=A%20Fragment%20represents%20a%20reusable,an%20activity%20or%20another%20fragment.) dentro do Android
+- [Exemplo de uso de Fragments](exemplo-fragments): nesta pasta existe um exemplo de suporte para compreensão do uso de [Fragments](https://developer.android.com/guide/fragments#:~:text=A%20Fragment%20represents%20a%20reusable,an%20activity%20or%20another%20fragment) dentro do Android
+
+- [Exemplo de uso do Navigation Component](exemplo-navigation): nesta pasta existe um exemplo de suporte para compreensão do uso do [Navigation Component](https://developer.android.com/guide/navigation) dentro do Android
+
+- [Exemplo de uso do NavigationUI](exemplos-navui): nesta pasta existe um exemplo de suporte para compreensão do uso do [NavigationUI](https://developer.android.com/guide/navigation/navigation-ui) dentro do Android

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_controller"
+    app:startDestination="@id/AFragment">
+
+    <fragment
+        android:id="@+id/AFragment"
+        tools:layout="@layout/fragment_a"
+        android:name="com.example.introducaonavigation.AFragment"
+        android:label="AFragment" >
+        <action
+            android:id="@+id/action_AFragment_to_BFragment"
+            app:destination="@id/BFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/BFragment"
+        tools:layout="@layout/fragment_b"
+        android:name="com.example.introducaonavigation.BFragment"
+        android:label="BFragment" >
+        <action
+            android:id="@+id/action_BFragment_to_AFragment"
+            app:destination="@id/AFragment" />
+        <argument
+            android:name="product"
+            app:argType="com.example.introducaonavigation.Product" />
+    </fragment>
+
+</navigation>
