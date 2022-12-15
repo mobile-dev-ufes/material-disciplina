@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990586802266",
+    "project_id": "introducaofirebase-a5517",
+    "storage_bucket": "introducaofirebase-a5517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990586802266:android:c8b23d623e3f643fa8c863",
+        "android_client_info": {
+          "package_name": "com.devmob.introfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990586802266-95chdptngn1d2fga636n47icnu1aqe68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvo21V0HwkzC3NorGboVQ2FZRtc99kOWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990586802266-95chdptngn1d2fga636n47icnu1aqe68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
