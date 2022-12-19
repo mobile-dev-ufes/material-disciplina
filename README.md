@@ -21,3 +21,5 @@ Esse repositório possui alguns recursos disponíveis para o aprendizado ao long
 - [Exemplo de uso do NavigationUI](exemplos-navui): nesta pasta existe um exemplo de suporte para compreensão do uso do [NavigationUI](https://developer.android.com/guide/navigation/navigation-ui) dentro do Android
 
 - [Introdução ao Firebase com Android](intro-firebase): nesta pasta existe um exemplo do uso dos serviços de Autenticação e Banco de dados em nuvem do [Firebase](https://firebase.google.com/)
+
+- [Outras funcionalidades e componentes](outras-func-comp): nesta pasta existe um exemplo do uso de diversas funcionalidades e componentes do Android para que você utilize nos seus projetos pessoais
