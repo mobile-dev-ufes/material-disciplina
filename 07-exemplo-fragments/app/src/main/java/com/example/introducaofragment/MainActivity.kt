@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.core.os.bundleOf
-import androidx.fragment.app.add
+import androidx.fragment.app.replace
 import androidx.fragment.app.commit
 import com.example.introducaofragment.databinding.ActivityMainBinding
 
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager.commit {
             setReorderingAllowed(true)
-            add<AFragment>(R.id.fragment_container_view, args=bundle)
+            replace<AFragment>(R.id.fragment_container_view, args=bundle)
         }
     }
 
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager.commit {
             setReorderingAllowed(true)
-            add<BFragment>(R.id.fragment_container_view, args=bundle)
+            replace<BFragment>(R.id.fragment_container_view, args=bundle)
         }
     }
 }
